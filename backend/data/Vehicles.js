@@ -1,0 +1,88 @@
+const products = [
+  {
+    name: 'Maruti Suzuki Alto 800',
+    image: '/images/alto800.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    brand: 'Suzuki',
+    category: 'Car',
+    type:"Petrol",
+    price:5000,
+    driven:1400,
+    passenger: 4,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    name: 'Toyota Hiace',
+    image: '/images/hiace.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    brand: 'Toyota',
+    category: 'Van',
+    type:"Diesel",
+    price: 21000,
+    driven:4400,
+    passenger: 16,
+    rating: 3,
+    numReviews: 25,
+  },
+  {
+    name: 'Bajaj Pulsar 150',
+    image: '/images/pulsar.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    brand: 'Bajaj',
+    category: 'motorcycle',
+    type:"Petrol",
+    price:1200,
+    driven:2568,
+    passenger: 2,
+    rating: 3,
+    numReviews: 12,
+  },
+  {
+    name: 'Royal Enfield 350',
+    image: '/images/royalenfield.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    brand: 'Royal Enfield',
+    category: 'motorcycle',
+    type:"Petrol",
+    price: 3000,
+    passenger: 2,
+    driven:1680,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    name: 'Mahindra Scorpio',
+    image: '/images/scorpio.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    brand: 'Mahindra',
+    category: 'SUV',
+    type:"Diesel",
+    price: 20000,
+    driven:12400,
+    passenger:8,
+    rating: 4.5,
+    numReviews: 21,
+  },
+  {
+    name: 'Tata Nexon',
+    image: '/images/tatanexon.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    brand: 'Tata',
+    category: 'crossover SUV',
+    type:"Electric",
+    price: 12000,
+    driven:8431,
+    passenger:5,
+    rating: 4,
+    numReviews: 8,
+  },
+]
+
+module.exports = products
